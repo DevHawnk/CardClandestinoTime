@@ -29,44 +29,8 @@
 }
 
 @media (max-width: 620px) {
-    body {
-        padding: 32px;
-        
-    }
-    .title-pag {
-        max-width: 58ch;
-    }
-    .text-animate h2 {
-        display: none;
-    }
-    .text-animate h3 {
-        display: none;
-    }
-    .text-animate {
+    .title-pag h1{
+        max-width: 620px;
     }
 }
 
-@media (min-width: 480px) {
-    body {
-        padding: 32px;
-        margin: 1px;
-    }
-    .title-pag {
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        font-size: 55%;
-    }
-    .text-animate h2 {
-        display: none;
-    }
-    .text-animate h3 {
-        display: none;
-    }
-    .text-animate {
-        display: flex;
-        align-items: center;
-        padding: 45px;
-    }
-}
