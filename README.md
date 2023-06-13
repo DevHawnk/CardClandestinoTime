@@ -16,14 +16,15 @@
 
 <h3 align="left">Visão Geral</h3>
 
+
 ###
 
 <h4 align="left">O Clandestino Rank é uma plataforma única que mostra os jogadores e suas classificações dentro de um treino "clandestino". Neste treino, os jogadores recebem avaliações do criador do Clandestino com base em seu desempenho e competitividade, seguindo regras e modalidades específicas. O objetivo deste projeto é permitir que todos possam acompanhar e melhorar em suas habilidades.<br><br>Além da página de classificações, futuramente planejamos adicionar uma seção de vídeos do "Clandestino" e depoimentos sobre cada posição em que os jogadores atuam no time. A ideia é promover interação no grupo e uma competição saudável entre os atletas.<br><br>Eu, Wesley, sou o programador responsável por este projeto e estou cuidando de todas as partes, desde o front-end até o back-end. Embora eu tenha começado a estudar programação pelo back-end com JAVA, MySQL e suas ferramentas e aplicações, estou me dedicando aos estudos de front-end para tornar este projeto uma realidade. Estou animado em conduzir esse projeto!</h4>
 
 ###
 
-<div align="center">
-  <img height="200" src=""  />
+<div align="right">
+  <img height="600" src="https://dsm01pap002files.storage.live.com/y4mopddOrQdX8o-7D4KG9zSrUAPuqtfn0j1j1EX0ojC2iDbHe89Q6SaJXJiao8S58q8s8m2Aye90QLJeRhGONzKOHlV0sxqNrfODNISaSsorZ1h1ABKjjUL9Tzx_lio-ygljYlmPSohZdg6tydHgH8D3twqDiTcarb3-NvTj_LoSY-fVfsXnBbTB6rhR38q4-hy?width=1486&height=610&cropmode=none"  />
 </div>
 
 ###
@@ -37,7 +38,11 @@
 ###
 
 <div align="center">
-  <img height="200" src=""  />
+  <img height="600" src="https://dsm01pap002files.storage.live.com/y4mV23bpri1jbNFOU_l-XbVv8XzkV4Kyi0NEl2whctWQD_SxpkMIK1KO9npfqNDmJEd7YE-iYUDiM9W__2df8IjVe9_xHaChQcNUsUohjEz8mgHIYkGN2M3OIpa1bA9M6sFwpFd52ighujStfCMyf5by9AxDITnMyAP1Vyf0HQiVRHTtZyZBTb2Qz5FYDZF5ilP?width=754&height=393&cropmode=none"  />
 </div>
+
+###
+
+<h1 align="left">EM ANDAMETO AINDA</h1>
 
 ###
