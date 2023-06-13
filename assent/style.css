@@ -95,7 +95,7 @@
                 text-shadow: 1px -1px 0 rgba(255, 255, 255, 0.5), 3px 1px 3px rgba(255, 0, 255, 0.85), -3px -2px 3px rgba(0, 0, 255, 0.85), 1px -2px 0 rgba(255, 255, 255, 0.8);
                 z-index: -2;
             }
-        }
+        
         
         .title-pag {
             display: flex;
@@ -284,3 +284,29 @@
             gap: 10px;
             color: gold;
         }
+        
+        @media (max-width: 748px) {
+            body {
+                padding: 32px;
+                margin: 1px;
+            }
+            .title-pag {
+                display: flex;
+                align-items: center;
+                padding: 0;
+                margin: 0;
+                font-size: 55%;
+            }
+            .text-animate h2 {
+                display: none;
+            }
+            .text-animate h3 {
+                display: none;
+            }
+            .text-animate {
+                display: flex;
+                align-items: center;
+                padding: 45px;
+            }
+        }
+        
