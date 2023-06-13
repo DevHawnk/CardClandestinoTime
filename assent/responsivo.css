@@ -30,7 +30,7 @@
 
 @media (max-width: 620px) {
     .title-pag h1{
-        max-width: 620px;
+        max-width: 620ch;     
     }
 }
 
