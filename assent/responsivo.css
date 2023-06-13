@@ -34,11 +34,7 @@
         
     }
     .title-pag {
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        font-size: 55%;
+        
     }
     .text-animate h2 {
         display: none;
