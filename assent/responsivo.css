@@ -6,9 +6,5 @@
         font-size: 18px;
         padding: 18px;
     }
-    .card-container {
-        max-width: 320px;
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
 }
