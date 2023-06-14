@@ -20,3 +20,22 @@ swipers.forEach((swiper) => {
         },
     });
 });
+
+
+
+
+var sessions = document.querySelectorAll('.session');
+
+function toggleSession(sessionId) {
+    for (var i = 0; i < sessions.length; i++) {
+        if (sessions[i].id === sessionId) {
+            if (sessions[i].style.display === 'none') {
+                sessions[i].style.display = 'flex';
+            } else {
+                sessions[i].style.display = 'none';
+            }
+        } else {
+            sessions[i].style.display = 'none';
+        }
+    }
+}
