@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
     <!-- ================= Header desing  inicio========================= -->
 
     <header>
@@ -50,7 +51,12 @@
     </section>
     <!-- ================= home fim ========================= -->
     <!--=============== about =========================-->
-    <section id="card" style="display: flex; flex-wrap: wrap;">
+    <button class="button btn" onclick="toggleSession('card')">Card</button>
+    <button class="button btn" onclick="toggleSession('czc')">Zuera do Candestino</button>
+    <button class="button btn" onclick="toggleSession('winner')">Vencedores</button>
+
+    <section class="session" id="card" style="display: flex; flex-wrap: wrap;">
+
 
         <div class="card-container" style="width: 300px;">
             <div class="card">
@@ -60,8 +66,8 @@
                             <img src="/assent/img/atletas/Hawnk.jpeg" alt="">
                         </div>
                         <div class="social-media">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands "></i>
+                            <i class="fa-brands "></i>
                             <i class="fa-brands fa-"></i>
                         </div>
                         <div class="name-profession">
@@ -73,6 +79,16 @@
                             <i class="fa-solid fa-hat-wizard"></i>
                             <i class="fa-sharp fa-solid fa-brain"></i>
                         </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <!-- <div class="image">
+                        <img src="/assent/img/atletas/Back-Hawnk.jpeg" alt="">
+                    </div> -->
+
+
+                    <div class="infor">
+                        <p> Minha posição exige que eu seja frio, centrado e forte. Não posso desistir, pois meus colegas de time contam comigo.</p>
                     </div>
                     <div class="container-attr">
                         <div class="attr">
@@ -109,26 +125,6 @@
                         </div>
                     </div>
 
-                </div>
-                <div class="back">
-                    <div class="image">
-                        <img src="/assent/img/atletas/Back-Hawnk.jpeg" alt="">
-                    </div>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <div class="infor">
-                        <h1>Infor</h1>
-                        <p> Minha posição exige que eu seja frio, centrado e forte. Não posso desistir, pois meus colegas de time contam comigo.</p>
-                    </div>
-                    <div class="infor-2">
-                        <p> jogo de line back e dobro de Defencive line e ofensive line se precisar</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -156,40 +152,6 @@
                             <i class="fa-sharp fa-solid fa-brain"></i>
                         </div>
                     </div>
-                    <div class="container-attr">
-                        <div class="attr">
-                            <h3 class="attr-title">Força</h3>
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="attr">
-                            <h3 class="attr-title">Coração</h3>
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="attr">
-                            <h3 class="attr-title">Treinos</h3>
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
                 <div class="back">
@@ -206,11 +168,14 @@
                     </div>
                     <div class="infor">
                         <h1>Infor</h1>
+
                         <p> .</p>
                     </div>
                     <div class="infor-2">
                         <p> </p>
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -793,6 +758,52 @@
         </div>
         </div>
     </section>
+    <!-- =====================================================  ====================================================== -->
+    <section class="session " id="czc" style="display: flex; flex-wrap: wrap;">
+
+        <div class="tittle-pst">
+
+            <h1>Post da semana da Zuera</h1>
+            <p></p>
+        </div>
+        <div class="cont-post">
+            <div class="container-post">
+                <img src=" /assent/img/postz/anderson.jpeg " alt="Anderson ">
+            </div>
+
+            <div class="container-post ">
+                <img src=" /assent/img/postz/louzeiro.jpeg" alt="Anderson">
+            </div>
+
+            <div class="container-post ">
+                <img src="" alt="">
+            </div>
+        </div>
+        <!-- <div class="cont-post">
+            <div class="container-post">
+                <img src="" alt=" ">
+            </div>
+
+            <div class="container-post ">
+                <img src="" alt="">
+            </div>
+
+            <div class="container-post ">
+                <img src="" alt="">
+            </div> -->
+        </div>
+    </section>
+    <!-- ===================================================== meme ====================================================== -->
+    <section class="session " id="winner" style="display: flex; flex-wrap: wrap;">
+
+        <h1>Vencedores</h1>
+        <p></p>
+
+        <div class="container-post">
+            <img src="" alt="">
+        </div>
+    </section>
+
     <!-- ===================================================== fim do about ====================================================== -->
 
     <script src="/assent/script.js"></script>
