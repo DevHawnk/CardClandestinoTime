@@ -1,15 +1,15 @@
-/* Estilos para dispositivos de tela grande (computadores) */
+
 @media (min-width: 759px) {
   .title-pag .title-cl {
     max-width: 58ch;
   }
-  .text-animate p {
+  .text-animate {
     display: flex;
     font-size: 18px;
     align-items: center;
     padding: 18px;
-    
-  }
+      }
+  
   .card-container {
     max-width: 960px;
     display: flex;
@@ -25,12 +25,12 @@
   }
 }
 
-/* Estilos para dispositivos de tela média (tablets) */
+
 @media (max-width: 758px) {
   .title-pag .title-cl {
     max-width: 58ch;
   }
-  .text-animate p {
+  .text-animate  {
     display: flex;
     font-size: 18px;
     padding: 18px;
@@ -52,12 +52,12 @@
   }
 }
 
-/* Estilos para dispositivos de tela pequena (celulares) */
+
 @media (max-width: 480px) {
   .title-pag .title-cl {
     max-width: 32ch;
   }
-  .text-animate p {
+  .text-animate  {
     display: flex;
     font-size: 16px;
     padding: 12px;
