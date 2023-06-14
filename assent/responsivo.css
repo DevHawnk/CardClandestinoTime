@@ -1,43 +1,4 @@
-.title-pag {
-  max-width: 58ch;
-  display: flex;
-  align-items: center;
-}
-
-.text-animate {
-  display: flex;
-  font-size: 18px;
-  align-items: center;
-}
-.text-animate h1 {
-  display: flex;
-  align-items: center;
-}
-
-.text-animate h3 {
-  display: flex;
-  align-items: center;
-}
-
-.text-animate p {
-  display: flex;
-  font-size: 18px;
-  align-items: center;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.button {
-  display: inline;
-  justify-content: center;
-  margin: 12px;
-}
-
-@media (min-width: 759px) {
+@media (min-width: 1024px) {
   .title-pag {
     max-width: 58ch;
   }
@@ -47,25 +8,55 @@
   }
 }
 
-@media (max-width: 758px) {
+@media (max-width: 1023px) {
   .title-pag {
     max-width: 58ch;
   }
   .card-container {
-    max-width: 480px;
+    max-width: 768px;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-pag {
+    max-width: 48ch;
+  }
+  .text-animate p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .card-container {
+    max-width: 480px;
+  }
+  .button {
+    max-width: 240px;
+    margin: 8px;
   }
 }
 
 @media (max-width: 480px) {
   .title-pag {
-    max-width: 58ch;
+    max-width: 32ch;
+  }
+  .text-animate p {
+    font-size: 14px;
+    padding: 0 10px;
   }
   .card-container {
     max-width: 320px;
   }
-  .button {
-    max-width: 240px;
-    margin: 8px;
+}
+
+@media (max-width: 240px) {
+  .title-pag {
+    max-width: 16ch;
+  }
+  .text-animate p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .card-container {
+    max-width: 110px;
   }
 }
