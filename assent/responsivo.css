@@ -4,9 +4,10 @@
     max-width: 58ch;
   }
   .text-animate p {
+    display: flex;
     font-size: 18px;
     padding: 18px;
-    word-wrap: break-word; /* Adiciona a quebra de texto */
+    
   }
   .card-container {
     max-width: 960px;
@@ -29,9 +30,10 @@
     max-width: 58ch;
   }
   .text-animate p {
+    display: flex;
     font-size: 18px;
     padding: 18px;
-    word-wrap: break-word; /* Adiciona a quebra de texto */
+    
   }
   .card-container {
     max-width: 480px;
@@ -54,9 +56,10 @@
     max-width: 32ch;
   }
   .text-animate p {
+    display: flex;
     font-size: 16px;
     padding: 12px;
-    word-wrap: break-word; /* Adiciona a quebra de texto */
+   
   }
   .card-container {
     max-width: 320px;
