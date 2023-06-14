@@ -9,6 +9,15 @@
   font-size: 18px;
   align-items: center;
 }
+.text-animate h1 {
+  display: flex;
+  align-items: center;
+}
+
+.text-animate h3 {
+  display: flex;
+  align-items: center;
+}
 
 .text-animate p {
   display: flex;
