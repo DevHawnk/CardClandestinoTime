@@ -276,7 +276,7 @@
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 220px) {
     .title-pag .title-cl {
         max-width: 58ch;
     }
@@ -310,7 +310,7 @@
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 120px) {
     .title-pag .title-cl {
         max-width: 40ch;
     }
