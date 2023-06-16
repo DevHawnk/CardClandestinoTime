@@ -278,15 +278,21 @@ span {
     transform: rotateY(180deg);
 }
 
-.back .infor h1 {
-    display: flex;
-}
-
 .back .infor p {
     display: block;
     align-items: center;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+.back .infor-2 p {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
     color: #fff;
     margin-top: 90px;
     margin-left: 25px;
@@ -325,8 +331,22 @@ span {
 
 .rating-1 {
     display: flex;
-    gap: 10px;
+    gap: 12px;
     color: gold;
+    font-size: 16px;
+    animation: sparkle 1.5s infinite;
+}
+
+@keyframes sparkle {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
@@ -406,29 +426,17 @@ span {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 10px 10px;
+    margin: 5px 5px;
     justify-content: space-between;
 }
 
 .container-post img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    display: flex;
+    max-width: 50%;
     border: 5px solid #000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.tittle-pst {
-    display: flex;
-    padding: 50px;
-}
-
-.tittle-pst h1 {
-    display: flex;
-    align-items: center;
-    font-family: var(--body-font);
-    color: var(--main-color);
+    margin: 5px;
 }
 
 
