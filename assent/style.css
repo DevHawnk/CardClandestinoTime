@@ -420,7 +420,7 @@ span {
     top: 60%;
     left: 10%;
     transform: translate(-10%, -70%);
-    background-color: aliceblue;
+    background-color: transparent;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgb(49, 3, 252);
