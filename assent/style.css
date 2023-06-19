@@ -412,6 +412,24 @@ span {
 .session {
     display: none;
 }
+.ocult-manssa {
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+    -webkit-text-stroke: 1px black;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-10%, -70%);
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(49, 3, 252);
+    display: none;
+}
+
+.card:hover .ocult-manssa {
+    display: block;
+}
 
 
 /* ========================================== */
