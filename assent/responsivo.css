@@ -8,6 +8,20 @@
     .title-pag span {
         font-size: 36px;
     }
+    .cont-post {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50%;
+    }
+    .cont-post img {
+        height: 50%;
+    }
+    .button {
+        font-size: 80%;
+        padding: 15px;
+        margin: 20px;
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -20,6 +34,11 @@
     .title-pag span {
         font-size: 28px;
     }
+    .button {
+        font-size: 80%;
+        padding: 15px;
+        margin: 20px;
+    }
 }
 
 @media only screen and (max-width: 448px) {
@@ -31,5 +50,10 @@
     }
     .title-pag span {
         font-size: 28px;
+    }
+    .button {
+        font-size: 80%;
+        padding: 15px;
+        margin: 20px;
     }
 }
